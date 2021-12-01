@@ -27,7 +27,7 @@ addBtn.onclick = () => {
     showTask();
     addBtn.classList.remove("active") //this is removing the add button.
 }
-
+showTask();
 function showTask() {
     let getLocalStorage = localStorage.getItem("New Todo"); //getting localstorage
     if (getLocalStorage == null) {
